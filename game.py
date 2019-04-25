@@ -209,7 +209,7 @@ else:
     textRect.centery = screen.get_rect().centery+24
     screen.blit(youwin, (0,0))
     screen.blit(text, textRect)
-while 1:
+whil
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
